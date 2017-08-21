@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_messenger_grey</title>
+    <desc>Created with Sketch.</desc>
+    <defs></defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-670.000000, -1360.000000)" fill="#313131">
+            <path d="M678.808174,1369.12173 L676.774622,1367.00478 L672.807414,1369.12173 L677.171549,1364.59934 L679.254273,1366.71632 L683.172087,1364.59934 L678.808174,1369.12173 Z M670,1366.62004 C670,1368.89089 671.170756,1370.91678 672.945014,1372.23975 L672.945014,1374.99109 L675.694352,1373.53476 C676.41977,1373.73097 677.203517,1373.83662 677.999366,1373.83662 C682.408681,1373.83662 685.991129,1370.60556 685.991129,1366.62004 C685.991129,1362.63459 682.423604,1360 678.014321,1360 C673.605038,1360 670,1362.63431 670,1366.62004 Z" id="icon_messenger_grey"></path>
+        </g>
+    </g>
+</svg>

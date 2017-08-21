@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<svg width="16px" height="15px" viewBox="0 0 16 15" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
+    <!-- Generator: Sketch 42 (36781) - http://www.bohemiancoding.com/sketch -->
+    <title>icon_messenger</title>
+    <desc>Created with Sketch.</desc>
+    <defs>
+        <polygon id="path-1" points="15.9911192 0 0 0 0 14.9910804 15.9911192 14.9910804 15.9911192 1.75804388e-15"></polygon>
+    </defs>
+    <g id="Welcome" stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
+        <g id="Desktop" transform="translate(-456.000000, -16.000000)">
+            <g id="Group" transform="translate(456.000000, 9.000000)">
+                <g id="icon_messenger" transform="translate(0.000000, 7.000000)">
+                    <mask id="mask-2" fill="white">
+                        <use xlink:href="#path-1"></use>
+                    </mask>
+                    <g id="Clip-2"></g>
+                    <path d="M8.80816475,9.12171959 L6.77461228,7.00477113 L2.80740436,9.12171959 L7.17153901,4.59932784 L9.25426376,6.71630722 L13.1720776,4.59932784 L8.80816475,9.12171959 Z M8.01431129,-1.2371134e-05 C3.60502812,-1.2371134e-05 -9.50495041e-06,2.63429691 -9.50495041e-06,6.62002887 C-9.50495041e-06,8.89087423 1.17074693,10.9167711 2.94500436,12.2397402 L2.94500436,14.9910804 L5.69434297,13.5347505 C6.41976079,13.7309567 7.20350733,13.8366062 7.99935683,13.8366062 C12.4086717,13.8366062 15.9911192,10.6055443 15.9911192,6.62002887 C15.9911192,2.63457526 12.4235945,-1.2371134e-05 8.01431129,-1.2371134e-05 L8.01431129,-1.2371134e-05 Z" id="Fill-1" fill="#0382F9" mask="url(#mask-2)"></path>
+                </g>
+            </g>
+        </g>
+    </g>
+</svg>

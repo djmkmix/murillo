@@ -1,0 +1,201 @@
+.contacto{
+  background-size: cover;
+  width: 100%;
+  text-align: center;
+
+  @include iphone{
+    position: static;
+  }
+}
+
+.color-nav{
+  width: 100%;
+  padding: 40px 0;
+
+  @include iphone{
+
+  }
+  @include tablet{
+    background-color: $rojoobscuro-murillo;
+  }
+  @include laptop{
+    background-color: $rojoobscuro-murillo;
+  }
+  @include hd{
+    background-color: $rojoobscuro-murillo;
+  }
+
+}
+
+.contacto-info{
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.mapa{
+  background-color: red;
+  height: 500px;
+
+  @include iphone{
+    width: 90%;
+    margin: 0 auto;
+  }
+  @include tablet{
+    width: 40%;
+  }
+  @include laptop{
+    width: 40%;
+  }
+  @include hd{
+    width: 40%;
+  }
+}
+
+.info-contacto{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: left;
+
+  @include iphone{
+    height: 300px;
+    width: 90%;
+    margin: 0 auto;
+  }
+  @include tablet{
+    height: 500px;
+    width: 55%;
+    margin: 0 0 0 50px;
+  }
+  @include laptop{
+    height: 500px;
+    width: 55%;
+    margin: 0 0 0 50px;
+  }
+  @include hd{
+    height: 500px;
+    width: 55%;
+    margin: 0 0 0 50px;
+  }
+
+  h1{
+    font-size: 3em;
+    font-weight: bold;
+    color: $azul-murillo;
+  }
+  a{
+    color: black;
+    display: block;
+    line-height: 1.6em;
+    color: $gris-obsmurillo;
+    font-weight: bold;
+
+    @include iphone{
+      font-size: 0.9em;
+    }
+    @include tablet{
+      font-size: 1.2em;
+    }
+    @include laptop{
+      font-size: 1.2em;
+    }
+    @include hd{
+      font-size: 1.2em;
+    }
+
+  }
+  .icon-changecolor{
+    color: black;
+  }
+}
+
+.info-centrar{
+  h1{
+    display: flex;
+    line-height: 1.4em;
+  }
+
+  p{
+    font-size: 1em;
+  }
+}
+
+.telefono{
+  display: flex;
+  align-items: center;
+  align-content: center;
+
+  div{
+    margin: 0 5px;
+    font-weight: bold;
+    font-size: 1.2em;
+  }
+}
+
+.facecontact{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e900";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.mtel{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e906";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.mwhats{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e908";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.mmsg{
+  position: relative;
+  padding: 0 0 20px 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e904";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}

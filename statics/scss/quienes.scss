@@ -1,0 +1,46 @@
+.quienes{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+  @include iphone{
+    background: url(../img/fachada_vieja.png) no-repeat center center;
+  }
+  @include tablet{
+    background: url(../img/fachada.png) no-repeat center center fixed;
+  }
+  @include laptop{
+    background: url(../img/fachada.png) no-repeat center center fixed;
+  }
+  @include hd{
+    background: url(../img/fachada.png) no-repeat center center fixed;
+  }
+
+  @include iphone{
+    position: static;
+  }
+}
+
+.img_quienes{
+  width: 100%;
+  @include iphone{
+    background: url(../img/img_quienes.png) no-repeat center left;
+    background-size: cover;
+    height: 200px;
+  }
+  @include tablet{
+    background: url(../img/img_quienes.png) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+  }
+  @include laptop{
+    background: url(../img/img_quienes.png) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+  }
+  @include hd{
+    background: url(../img/img_quienes.png) no-repeat center center;
+    background-size: cover;
+    height: 400px;
+  }
+}

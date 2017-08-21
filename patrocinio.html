@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Patrocinios</title>
+    <link rel="stylesheet" type="text/css" href="statics/css/style.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
+  </head>
+  <body>
+
+    <header>
+      <ul>
+        <a class="logotexto" href="/"></a>
+        <li><a class="msg-icon" href="http://m.me/murillomateriales.com.mx">Murillo Materiales</a></li>
+        <li><a class="tel-icon" href="tel:6121231808">(612) 123.1808</a></li>
+        <li><a class="whats-icon" href="https://api.whatsapp.com/send?phone=+526121694939">(612) 169.4939</a></li>
+      </ul>
+    </header>
+
+    <div class="patrocinio">
+
+      <span class="burguer-button icon-menu" id="burguer-button"></span>
+      <nav class="" id="menu">
+        <ul>
+          <li><a href="/">HOME</a></li>
+          <li><a href="/servicios.html">SERVICIOS</a></li>
+          <li><a href="/creditos.html">CRÉDITOS</a></li>
+          <li><a href="/quienessomos.html">¿QUIÉNES SOMOS?</a></li>
+          <li><a href="/patrocinio.html">PATROCINIO</a></li>
+          <li><a href="/contacto.html">CONTACTO</a></li>
+        </ul>
+      </nav>
+
+    </div>
+
+    <div class="cred-princ">
+
+      <div class="div-ser">
+          <div class="puntosservicios">
+
+            <h2 class="titulos">BALAZO JR GENERATIONS</h2>
+            <div class="separa">
+              <div class="rect-rojo"></div>
+              <div class="linea-gris"></div>
+            </div>
+            <p>Carlos Ramos Murillo es un piloto que en 2010 teniendo 23 años de edad logró por tercer año consecutivo el Campeonato da la clase 7, alcanzando esta meta en apenas su tercer año como corredor profesional, lo que le ha dado la talla de ser uno de los pilotos a vencer en la clase 7 del off road en Baja California Sur, “El Balacito”, como ahora le apoda la familia del off road sudcaliforniano, aprendió a manejar desde los 8 años en los polvosos caminos de Ciudad Constitución, Baja California Sur, situación que desde muy joven lo llevó a conocer el manejo de un vehículo en la brecha y que hoy en día se ha visto reflejado en su contundente paso por el automovilismo off road de la media península, y para muestra, sus más destacados resultados.</p>
+          </div>
+      </div>
+
+    </div>
+
+    <img class="img_deportivo" src="/statics/img/deportivo.png" alt="">
+
+    <div class="cred-princ">
+
+      <div class="div-ser">
+          <div class="puntosservicios">
+
+            <h2 class="titulos">CLUB DEPORTIVO SANTUARIO</h2>
+            <div class="separa">
+              <div class="rect-rojo"></div>
+              <div class="linea-gris"></div>
+            </div>
+            <p>Murillo Materiales conocedores de que la practica de algún deporte encamina a la juventud sudcaliforniana, a crear ciudadanos con buenos habitos, tratando de fomentar la convivencia sana entre los pobladores de la ciudad patrocina al Club Deportivo Santuario, donde muchos jovenes de La Paz B.C.S. practican y se divierten jugando futbol.</p>
+          </div>
+      </div>
+
+    </div>
+
+    <footer>
+      <div class="footer-div">
+
+        <div class="div-cont">
+            <h2 class="titulos">NAVEGACIÓN</h2>
+            <div class="separa">
+              <div class="rect-rojo"></div>
+              <div class="linea-gris"></div>
+            </div>
+
+            <h1 class="subtitulos-nobold"><a href="/">HOME</a></h1>
+            <h1 class="subtitulos-nobold"><a href="/servicios.html">SERVICIOS</a></h1>
+            <h1 class="subtitulos-nobold"><a href="/creditos.html">CRÉDITOS</a></h1>
+            <h1 class="subtitulos-nobold"><a href="/quienessomos.html">¿QUIÉNES SOMOS?</a></h1>
+            <h1 class="subtitulos-nobold"><a href="/patrocinio.html">PATROCINIO</a></h1>
+            <h1 class="subtitulos-nobold"><a href="/contacto.html">CONTACTO</a></h1>
+        </div>
+
+        <div class="div-cont">
+
+
+            <div class="index-contact">
+              <h2 class="titulos">CONTÁCTANOS</h2><a href="https://api.whatsapp.com/send?phone=+526121320344" class="contact-icon-whats"></a><a href="http://m.me/murillomateriales.com.mx" class="contact-icon-msg"></a>
+              <a href="https://api.whatsapp.com/send?phone=+526121320344"><div class="icon20 whats-grey"></div></a>
+              <a href="http://m.me/murillomateriales.com.mx"><div class="icon20 mesg-grey"></div></a>
+            </div>
+
+            <div class="separa">
+              <div class="rect-rojo"></div>
+              <div class="linea-gris"></div>
+            </div>
+
+            <div class="index-contact-icon">
+              <li><h1 class="subtitulos-nobold face-icon-grey"><a href="https://www.facebook.com/murillomateriales.com.mx/">Murillo Materiales</a></h1></li>
+              <li><h1 class="subtitulos-nobold whats-icon-grey"><a href="tel:6121231808">(612) 123.1808</a></h1></li>
+            </div>
+
+        </div>
+
+      </div>
+
+      <div class="greyfooter">
+        <h3>© Murillo Materiales S.A. de C.V.</h3>
+      </div>
+
+    </footer>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/prefixfree/1.0.7/prefixfree.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/hammer.js/2.0.8/hammer.min.js"></script>
+
+    <script>
+      var $burguerButton = document.getElementById('burguer-button');
+      var $menu = document.getElementById("menu");
+      $burguerButton.addEventListener("touchstart", toggleMenu)
+
+      function toggleMenu(){
+        $menu.classList.toggle("active")
+      };
+
+      function showMenu(){
+        $menu.classList.add("active")
+      };
+
+      function hideMenu(){
+        $menu.classList.remove("active")
+      };
+
+      //Gestos touchs
+
+      var $body = document.body;
+      var gestos = new Hammer($body);
+      gestos.on('swipeleft', hideMenu);
+      gestos.on('swiperight', showMenu);
+    </script>
+  </body>
+</html>

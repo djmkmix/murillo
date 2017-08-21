@@ -1,0 +1,29 @@
+.patrocinio{
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  @include iphone{
+    background: url(../img/balazito.png) no-repeat center center;
+  }
+  @include tablet{
+    background: url(../img/racing_back.png) no-repeat center center fixed;
+  }
+  @include laptop{
+    background: url(../img/racing_back.png) no-repeat center center fixed;
+  }
+  @include hd{
+    background: url(../img/racing_back.png) no-repeat center center fixed;
+  }
+
+  @include iphone{
+    position: static;
+  }
+}
+
+.img_deportivo{
+  display: block;
+  box-sizing: border-box;
+  width: 100%;
+}

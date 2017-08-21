@@ -1,0 +1,61 @@
+@keyframes rebote {
+  0%, 20%, 50%, 80%, 100% {
+      transform: translateY(0);
+    }
+  	40% {
+      transform: translateY(-8px);
+    }
+  	60% {
+      transform:translateY(-4px);
+    }
+}
+
+
+@keyframes wiggle {
+  10%, 90% {
+     transform: translate3d(-1px, 0, 0);
+   }
+
+   20%, 80% {
+     transform: translate3d(2px, 0, 0);
+   }
+
+   30%, 50%, 70% {
+     transform: translate3d(-3px, 0, 0);
+   }
+
+   40%, 60% {
+     transform: translate3d(3px, 0, 0);
+   }
+}
+
+@keyframes bouncez {
+  0%{
+    transform:scale(0.7);
+  }
+
+  30%{
+    transform:scale(1);
+  }
+
+  40%{
+    transform:scale(0.8);
+  }
+
+  50%{
+    transform:scale(1);
+  }
+
+  60%{
+    transform:scale(0.8);
+  }
+
+  70%{
+    transform:scale(1);
+  }
+
+  100%{
+    transform:scale(0.7);
+  }
+
+}

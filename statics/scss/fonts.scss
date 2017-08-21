@@ -1,0 +1,109 @@
+@font-face {
+  font-family: 'BebasNeue';
+  src: url('../fonts/BebasNeue.eot?#iefix') format('embedded-opentype'),  url('../fonts/BebasNeue.otf')  format('opentype'),
+	     url('../fonts/BebasNeue.woff') format('woff'), url('../fonts/BebasNeue.ttf')  format('truetype'), url('../fonts/BebasNeue.svg#BebasNeue') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next W1G';
+	src: url('../fonts/AvenirNextW1G-Bold.eot');
+	src: url('../fonts/AvenirNextW1G-Bold.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextW1G-Bold.woff') format('woff'),
+		url('../fonts/AvenirNextW1G-Bold.ttf') format('truetype'),
+		url('../fonts/AvenirNextW1G-Bold.svg#AvenirNextW1G-Bold') format('svg');
+	font-weight: bold;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next W1G';
+	src: url('../fonts/AvenirNextW1G-Light.eot');
+	src: url('../fonts/AvenirNextW1G-Light.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextW1G-Light.woff') format('woff'),
+		url('../fonts/AvenirNextW1G-Light.ttf') format('truetype'),
+		url('../fonts/AvenirNextW1G-Light.svg#AvenirNextW1G-Light') format('svg');
+	font-weight: 300;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next W1G';
+	src: url('../fonts/AvenirNextW1G-Italic.eot');
+	src: url('../fonts/AvenirNextW1G-Italic.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextW1G-Italic.woff') format('woff'),
+		url('../fonts/AvenirNextW1G-Italic.ttf') format('truetype'),
+		url('../fonts/AvenirNextW1G-Italic.svg#AvenirNextW1G-Italic') format('svg');
+	font-weight: normal;
+	font-style: italic;
+}
+
+@font-face {
+	font-family: 'Avenir Next W1G';
+	src: url('../fonts/AvenirNextW1G-Heavy.eot');
+	src: url('../fonts/AvenirNextW1G-Heavy.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextW1G-Heavy.woff') format('woff'),
+		url('../fonts/AvenirNextW1G-Heavy.ttf') format('truetype'),
+		url('../fonts/AvenirNextW1G-Heavy.svg#AvenirNextW1G-Heavy') format('svg');
+	font-weight: 900;
+	font-style: normal;
+}
+
+@font-face {
+	font-family: 'Avenir Next W1G';
+	src: url('../fonts/AvenirNextW1G-Regular.eot');
+	src: url('../fonts/AvenirNextW1G-Regular.eot?#iefix') format('embedded-opentype'),
+		url('../fonts/AvenirNextW1G-Regular.woff') format('woff'),
+		url('../fonts/AvenirNextW1G-Regular.ttf') format('truetype'),
+		url('../fonts/AvenirNextW1G-Regular.svg#AvenirNextW1G-Regular') format('svg');
+	font-weight: normal;
+	font-style: normal;
+}
+
+@font-face {
+  font-family: 'icomoon';
+  src:  url('../fonts/icomoon.eot?yltls');
+  src:  url('../fonts/icomoon.eot?yltls#iefix') format('embedded-opentype'),
+    url('../fonts/icomoon.ttf?yltls') format('truetype'),
+    url('../fonts/icomoon.woff?yltls') format('woff'),
+    url('../fonts/icomoon.svg?yltls#icomoon') format('svg');
+  font-weight: normal;
+  font-style: normal;
+}
+
+[class^="icon-"], [class*=" icon-"] {
+  /* use !important to prevent issues with browser extensions that change fonts */
+  font-family: 'icomoon' !important;
+  speak: none;
+  font-style: normal;
+  font-weight: normal;
+  font-variant: normal;
+  text-transform: none;
+  line-height: 1;
+
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.icon-menu:before {
+  content: "\e902";
+}
+
+.icon-close:before {
+  content: "\e901";
+}
+
+.icon-icon_facebook:before {
+  content: "\e900";
+}
+.icon-icon_messenger_grey:before {
+  content: "\e904";
+}
+.icon-icon_telefono_grey:before {
+  content: "\e906";
+}
+.icon-icon_whatsapp_grey:before {
+  content: "\e908";
+}

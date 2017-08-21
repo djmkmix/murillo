@@ -1,0 +1,139 @@
+.div-ser{
+  padding: 10px;
+
+  @include iphone{
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+
+  p{
+    color: #5D5D5D;
+    margin: 0 0 30px 0;
+  }
+}
+
+
+.serv-princ{
+  align-items: baseline;
+  align-content: center;
+  justify-content: space-around;
+  margin: 50px auto 50px auto;
+
+  @include iphone{
+    display: block;
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    display: flex;
+    width: $medida-ancho;
+  }
+  @include laptop{
+    display: flex;
+    width: $medida-ancho;
+  }
+  @include hd{
+    display: flex;
+    width: $medida-ancho;
+  }
+}
+
+.puntosservicios{
+  padding: 0 10px;
+  text-align: justify;
+  word-spacing:-3px;
+  position: relative;
+
+  .imagen-serv{
+    display: block;
+    box-sizing: border-box;
+    height: 200px;
+    width: 100%;
+    margin: 0 0 $pixel-separacion 0;
+    background-color: red;
+  }
+}
+
+.servicios{
+  background: url(../img/img_info_principal.png) no-repeat center center fixed;
+  background-size: cover;
+  height: 100%;
+  width: 100%;
+  text-align: center;
+
+  @include iphone{
+    background: url(../img/img_info_principal.png) no-repeat center center;
+    position: static;
+  }
+
+  .textfrase{
+    letter-spacing:1px;
+    font-family: 'BebasNeue';
+    color: white;
+    text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.9);
+    position: absolute;
+    left: 50%;
+    transform: translate(-50%, 0);
+    @include iphone{
+      font-size: 3em;
+      margin: 70px 0 0 0;
+    }
+    @include tablet{
+      font-size: 4em;
+      margin: 100px 0 0 0;
+    }
+    @include laptop{
+      font-size: 4em;
+      margin: 200px 0 0 0;
+    }
+    @include hd{
+      font-size: 4em;
+      margin: 250px 0 0 0;
+    }
+  }
+}
+
+.servicios::before{
+  background-color: rgba(0, 0, 0, 0.6);
+  content: '';
+  display: block;
+  height: 100%;
+  position: absolute;
+  width: 100%;
+}
+
+.navigator{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+}
+
+.botonservicios{
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+
+  @include iphone{
+    font-size: 3em;
+    margin: 350px 0 0 0;
+  }
+  @include tablet{
+    font-size: 4em;
+    margin: 400px 0 0 0;
+  }
+  @include laptop{
+    font-size: 4em;
+    margin: 400px 0 0 0;
+  }
+  @include hd{
+    font-size: 4em;
+    margin: 400px 0 0 0;
+  }
+}

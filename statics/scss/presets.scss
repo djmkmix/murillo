@@ -1,0 +1,99 @@
+.icon20{
+  width: 20px;
+  height: 20px;
+  margin: 0 $pixel-separacion 0 0;
+}
+
+.boton{
+  background-color: $azulclaro-murillo;
+  color: white;
+  font-family: 'BebasNeue';
+  margin: 20px auto 0 auto;
+  position: absolute;
+  left: 50%;
+  transform: translate(-50%, 0);
+  border: 3px solid $rojo-murillo;
+  cursor: pointer;
+  transition: 0.8s;
+
+  @include iphone{
+    padding: 10px;
+    font-size: 2em;
+  }
+  @include tablet{
+    padding: 20px;
+    font-size: 4em;
+  }
+  @include laptop{
+    padding: 20px;
+    font-size: 4em;
+  }
+  @include hd{
+    padding: 20px;
+    font-size: 4em;
+  }
+}
+.boton:hover{
+  background-color: $rojo-murillo;
+  border: 3px solid $azul-murillo;
+}
+
+.boton-small{
+  background-color: $azulclaro-murillo;
+  color: white;
+  font-family: 'BebasNeue';
+  font-size: 2em;
+  padding: 10px;
+  cursor: pointer;
+  transition: 0.8s;
+
+  @include iphone{
+    font-size: 1em;
+    border: 2px solid $rojo-murillo;
+  }
+  @include tablet{
+    font-size: 1em;
+    border: 3px solid $rojo-murillo;
+  }
+  @include laptop{
+    font-size: 1em;
+    border: 3px solid $rojo-murillo;
+  }
+  @include hd{
+    font-size: 1em;
+    border: 3px solid $rojo-murillo;
+  }
+}
+.boton-small:hover{
+  background-color: $rojo-murillo;
+  border: 3px solid $azul-murillo;
+}
+
+
+.subtitulos{
+  font-weight: bold;
+  margin: 0 0 5px 0;
+  font-size: 1em;
+}
+
+.subtitulos-nobold{
+  margin: 0 0 15px 0;
+  font-size: 1em;
+}
+
+.titulos{
+  font-weight: bold;
+  @include iphone{
+    font-size: 1em;
+    text-align: left;
+  }
+  @include tablet{
+    font-size: 1.5em;
+  }
+  @include laptop{
+    font-size: 1.5em;
+  }
+  @include hd{
+    font-size: 1.5em;
+  }
+}

@@ -1,0 +1,70 @@
+
+$azulclaro: rgba( 0, 130, 250, 100);
+$azulclaro-murillo: rgba( 26, 47, 122, 100);
+$azul-murillo: rgba( 14, 35, 71, 100);
+
+$rojo-murillo: rgba( 247, 17, 16, 100);
+$rojoobscuro-murillo:rgba( 208, 0, 27, 100);
+
+$gris-murillo: rgba( 238, 238, 238, 100);
+$grisobscuro-murillo: rgba( 151, 151, 151, 100);
+$gris-obsmurillo: rgba( 49, 49, 49, 100);
+
+
+$px:px;
+$numero-medida:750;
+$medida-ancho: $numero-medida + $px;
+$medida-mitad-ancho:$numero-medida / 2 + $px;
+$medida-ancho-porcentaje: 90%;
+
+$pixel-separacion: 8px;
+
+
+$hd: 1366px;
+$laptop: 1024px;
+$tablet: 768px;
+$iphone: 420px;
+
+
+
+@mixin iphone {
+  @media (max-width: #{$tablet - 1px}) {
+    @content;
+  }
+}
+
+@mixin tablet {
+  @media (min-width: #{$tablet}) and (max-width: #{$laptop - 1px}) {
+    @content;
+  }
+}
+
+@mixin laptop {
+  @media (min-width: #{$laptop}) and (max-width: #{$hd - 1px}) {
+    @content;
+  }
+}
+
+@mixin hd{
+  @media (min-width: #{$hd}) {
+    @content;
+  }
+}
+
+
+
+
+
+
+// @include iphone{
+//
+// }
+// @include tablet{
+//
+// }
+// @include laptop{
+//
+// }
+// @include hd{
+//
+// }

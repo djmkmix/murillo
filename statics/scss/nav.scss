@@ -1,0 +1,123 @@
+
+nav.active{
+  @include iphone{
+    left: 0;
+
+  }
+}
+
+nav{
+  display: flex;
+  justify-content: center;
+
+  @include iphone{
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: -100%;
+    z-index: 4;
+    background: rgba(0, 0, 0, 0.8);
+    bottom: 0;
+    right: 0;
+    align-items: center;
+    transition: .3s;
+  }
+  @include tablet{
+    padding: 40px 0 0 0;
+    position: relative;
+  }
+  @include laptop{
+    padding: 40px 0 0 0;
+    position: relative;
+  }
+  @include hd{
+    padding: 40px 0 0 0;
+    position: relative;
+  }
+
+  ul{
+    @include iphone{
+      width: 100%;
+      height: 350px;
+      text-align: center;
+    }
+    @include tablet{
+      align-items: center;
+      align-content: center;
+    }
+    @include laptop{
+      align-items: center;
+      align-content: center;
+    }
+    @include hd{
+      align-items: center;
+      align-content: center;
+    }
+
+    color: white;
+    display: flex;
+    font-size: 0.8em;
+    justify-content: space-around;
+    align-items: center;
+    width: $medida-ancho;
+    flex-wrap: wrap;
+
+
+    a, a:link{
+      color: white;
+    }
+
+    li{
+      cursor: pointer;
+      transition: 0.8s;
+
+      @include iphone{
+        width: 100%;
+        padding: 20px 0;
+        height: auto;
+      }
+      @include tablet{
+        border-radius: 10px;
+        padding:0.8em;
+      }
+      @include laptop{
+        border-radius: 10px;
+        padding:0.8em;
+      }
+      @include hd{
+        border-radius: 10px;
+        padding:0.8em;
+      }
+    }
+    li:hover{
+      background-color: $azulclaro-murillo;
+    }
+  }
+}
+
+.burguer-button{
+  width: 40px;
+  border-radius: 50%;
+  line-height: 40px;
+  height: 40px;
+  background: white;
+  display: inline-block;
+  text-align: center;
+  position: fixed;
+  left: 20px;
+  top: 90px;
+  cursor: pointer;
+  z-index: 5;
+  @include iphone{
+
+  }
+  @include tablet{
+    display: none;
+  }
+  @include laptop{
+    display: none;
+  }
+  @include hd{
+    display: none;
+  }
+}

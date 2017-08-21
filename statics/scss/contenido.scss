@@ -1,0 +1,380 @@
+.llamanos{
+  background-color: $azul-murillo;
+  display: flex;
+}
+
+.middle-llamanos{
+  height: 80px;
+  background-color: $azul-murillo;
+  display: flex;
+  align-items: center;
+  align-content: center;
+  justify-content: space-around;
+  margin: 0 auto;
+  color: white;
+
+  @include iphone{
+    width: $medida-ancho-porcentaje;
+    height: 100px;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+
+  h4{
+    @include iphone{
+      width: 60%;
+    }
+  }
+}
+
+.cont-princ{
+  align-items: baseline;
+  align-content: center;
+  justify-content: space-around;
+  margin: 50px auto 50px auto;
+
+  @include iphone{
+    display: block;
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    display: flex;
+    width: $medida-ancho;
+  }
+  @include laptop{
+    display: flex;
+    width: $medida-ancho;
+  }
+  @include hd{
+    display: flex;
+    width: $medida-ancho;
+  }
+}
+
+.div-cont{
+  padding: 10px;
+
+  @include iphone{
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+
+  p{
+    color: #5D5D5D;
+    margin: 0 0 30px 0;
+  }
+}
+
+.separa{
+  width: 100%;
+  height: 6px;
+  margin: 5px 0 30px 0;
+}
+
+.rect-rojo{
+  background-color: $rojo-murillo;
+  height: 3px;
+  width: 40px;
+}
+
+.linea-gris{
+  width: 70%;
+  height: 2px;
+  background-color: #D2D2D2;
+}
+
+.fachada-local{
+  width: 100%;
+  height: 180px;
+  margin: 0 0 30px 0;
+  background: url(../img/fachada.jpg) no-repeat center center ;
+  background-size: cover;
+}
+
+.frase{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  text-align: center;
+  width: 100%;
+  position: relative;
+  height: 140px;
+  background-color: rgba( 247, 17, 16, 100);
+
+  h4{
+    color: white;
+    margin: 0 auto;
+
+    @include iphone{
+      font-size: 1em;
+      line-height: 1.2em;
+      width: $medida-ancho-porcentaje;
+    }
+    @include tablet{
+      font-size: 1.2em;
+      line-height: 1.5em;
+      width: $medida-ancho;
+    }
+    @include laptop{
+      font-size: 1.2em;
+      line-height: 1.5em;
+      width: $medida-ancho;
+    }
+    @include hd{
+      font-size: 1.2em;
+      line-height: 1.5em;
+      width: $medida-ancho;
+    }
+
+  }
+}
+
+.proveedores{
+  margin: 50px auto 50px auto;
+
+  @include iphone{
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+}
+
+.logos-provee{
+  display: flex;
+  flex-wrap: wrap;
+  align-items: center;
+  align-content: center;
+  justify-content: space-between;
+
+  @include iphone{
+    margin: 0 auto;
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+
+  img{
+
+    @include iphone{
+      width: 90px;
+      margin: 0 10px 10px 0;
+    }
+    @include tablet{
+      width: 200px;
+      margin: 0 0 50px 0;
+    }
+    @include laptop{
+      width: 200px;
+      margin: 0 0 50px 0;
+    }
+    @include hd{
+      width: 200px;
+      margin: 0 0 50px 0;
+    }
+  }
+}
+
+footer{
+  background-color: $gris-murillo;
+  width: 100%;
+}
+.footer-div{
+  a{
+    color: black;
+    &:hover{
+      color: $rojo-murillo;
+    }
+  }
+  display: flex;
+  justify-content: space-between;
+
+  margin: 0 auto;
+  padding: 50px 0 50px 0;
+  @include iphone{
+    flex-wrap: wrap;
+    width: $medida-ancho-porcentaje;
+  }
+  @include tablet{
+    width: $medida-ancho;
+  }
+  @include laptop{
+    width: $medida-ancho;
+  }
+  @include hd{
+    width: $medida-ancho;
+  }
+}
+
+.greyfooter{
+
+  background-color: $gris-obsmurillo;
+  width: 100%;
+  text-align: center;
+
+  h3{
+    color: white;
+    padding: 40px 0;
+  }
+}
+
+.index-contact{
+  display: flex;
+  align-items: center;
+  align-content: center;
+  h2{
+    margin: 0 $pixel-separacion 0 0;
+  }
+}
+
+.index-contact-icon{
+  li{
+    display: flex;
+    align-items: flex-start;
+    align-content: center;
+  }
+}
+
+.msg-icon{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $azulclaro;
+    content: "\e904";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:rebote 2s infinite;
+  }
+}
+
+.tel-icon{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $azulclaro;
+    content: "\e906";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:wiggle 2s infinite;
+  }
+}
+
+.whats-icon{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $azulclaro;
+    content: "\e908";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.whats-icon-grey{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e908";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.face-icon-grey{
+  position: relative;
+  padding: 0 0 0 20px;
+
+  &:before{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    content: "\e900";
+    transition: 0.8s;
+    position: absolute;
+    left: 0;
+  }
+  &:hover:before {
+    animation:bouncez 2s infinite;
+  }
+}
+
+.contact-icon-whats{
+  position: relative;
+  padding: 0 10px 0 0;
+
+  &:after{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    font-size: 1.5em;
+    content: "\e908";
+    transition: 0.8s;
+  }
+  &:hover:after {
+    animation:bouncez 2s infinite;
+  }
+}
+.contact-icon-msg{
+  position: relative;
+  padding: 0 10px 0 0;
+
+  &:after{
+    font-family: 'icomoon' !important;
+    color: $gris-obsmurillo;
+    font-size: 1.5em;
+    content: "\e904";
+    transition: 0.8s;
+  }
+  &:hover:after {
+    animation:bouncez 2s infinite;
+  }
+}
